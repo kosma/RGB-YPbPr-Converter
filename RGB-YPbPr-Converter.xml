@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Projects\Repos\RGB-YPbPr-Converter\RGB-YPbPr-Converter.kicad_sch</source>
+    <date>01/10/2022 01:37:22</date>
+    <tool>Eeschema (6.0.4)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>RGB-YPbPr-Converter.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RGB-YPbPr-Converter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ce745f7c-ad7d-497d-a46c-74ffa3c0cbe1</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RGB-YPbPr-Converter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>be47a4c9-3fca-49ea-a3e6-26f444818a16</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10u</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RGB-YPbPr-Converter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f85d443a-fb93-4b57-80f7-05e9a95c5b78</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RGB-YPbPr-Converter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3ea106e9-7891-403c-929c-d31d92397eb2</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>10u</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RGB-YPbPr-Converter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>713d78e5-dc28-4eff-b0be-732fcb376761</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>PWR</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RGB-YPbPr-Converter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>87fc40d3-7c11-49ca-a57d-fd3c6ab6c821</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>RGB</value>
+      <footprint>Connector_Dsub:DSUB-15-HD_Male_Horizontal_P2.29x1.98mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="DB15_Male_HighDensity_MountingHoles" description="15-pin male D-SUB connector, High density (3 columns), Triple Row, Generic, VGA-connector, Mounting Hole"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RGB-YPbPr-Converter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>abd5b1f8-417b-4e4b-bb91-50def48c6e7b</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Component</value>
+      <footprint>Connector_Dsub:DSUB-15-HD_Male_Horizontal_P2.29x1.98mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="DB15_Male_HighDensity_MountingHoles" description="15-pin male D-SUB connector, High density (3 columns), Triple Row, Generic, VGA-connector, Mounting Hole"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RGB-YPbPr-Converter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>67c7a478-1f53-477a-9997-e375f47aa773</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>PWR</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-2_P5.08mm</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RGB-YPbPr-Converter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00ab5524-35cd-4691-9fc1-d7a1d786f38a</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RGB-YPbPr-Converter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d2f2bfd5-193f-45dc-9d75-ad6574eb23bb</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>105</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RGB-YPbPr-Converter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>337e4a1e-c5b1-4f81-85f4-3e3f2bbd5357</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>261</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RGB-YPbPr-Converter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f2f39cd9-dada-49b5-8892-f4e8b8de29a3</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>1070</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RGB-YPbPr-Converter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>479fa1f9-2ffa-4a81-852b-e3278c9d7222</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>549</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RGB-YPbPr-Converter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b2dd5bc7-9128-4930-bc49-ecd82a262149</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>105</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RGB-YPbPr-Converter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>27adb9c5-be34-4b48-aad1-0392abc87a2c</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>75</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RGB-YPbPr-Converter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>93407a20-a6b2-4ff3-b074-e8ebd81c5a7f</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>75</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RGB-YPbPr-Converter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1628d553-c10f-430c-93e5-98caafa68dd2</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>75</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RGB-YPbPr-Converter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1f8633be-2fc3-442d-8330-65b9137409a8</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>2940</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RGB-YPbPr-Converter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4369dfbd-bab4-45e2-ac4f-4edab1449fa8</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>105</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RGB-YPbPr-Converter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ecabc2e7-0a11-4754-8a59-d585f1b8f4f6</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>174</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RGB-YPbPr-Converter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c09ecc74-f54a-4846-9dce-97ef7736e6a9</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RGB-YPbPr-Converter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4a546219-c246-478b-bdc3-939bb551576d</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RGB-YPbPr-Converter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ae062425-d8d9-4110-b0c2-6441f54caf11</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>LMV7219M5</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/lmv7219.pdf</datasheet>
+      <libsource lib="Comparator" part="LMV7219M5" description="Single Low-Power High-Speed Push-Pull Output Comparator, SOT-23-5"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RGB-YPbPr-Converter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>edecd82a-8460-4087-9a75-5ba36ce231d0</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>LT6550</value>
+      <footprint>Package_SO:MSOP-10_3x3mm_P0.5mm</footprint>
+      <libsource lib="lib" part="LT6550" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RGB-YPbPr-Converter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7c992c73-6a58-4766-adf4-b84fdb2a0e36</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>ICL7660</value>
+      <footprint>Package_SO:MSOP-8_3x3mm_P0.65mm</footprint>
+      <datasheet>http://datasheets.maximintegrated.com/en/ds/ICL7660-MAX1044.pdf</datasheet>
+      <libsource lib="Regulator_SwitchedCapacitor" part="ICL7660" description="Switched-Capacitor Voltage Converter, 1.5V to 10.0V operating supply voltage, 10mA with a 0.5V output drop, SO-8/DIP-8/µMAX-8/TO-99"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RGB-YPbPr-Converter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ab0a9af8-81f1-4115-a8aa-e5042c4da610</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Comparator" part="LMV7219M5">
+      <description>Single Low-Power High-Speed Push-Pull Output Comparator, SOT-23-5</description>
+      <docs>https://www.ti.com/lit/ds/symlink/lmv7219.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LMV7219M5</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/lmv7219.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="output"/>
+        <pin num="2" name="V-" type="power_in"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="-" type="input"/>
+        <pin num="5" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="DB15_Male_HighDensity_MountingHoles">
+      <description>15-pin male D-SUB connector, High density (3 columns), Triple Row, Generic, VGA-connector, Mounting Hole</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>DSUB*Male*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DB15_Male_HighDensity_MountingHoles</field>
+        <field name="Datasheet"> ~</field>
+      </fields>
+      <pins>
+        <pin num="0" name="" type="passive"/>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+        <pin num="9" name="" type="passive"/>
+        <pin num="10" name="" type="passive"/>
+        <pin num="11" name="" type="passive"/>
+        <pin num="12" name="" type="passive"/>
+        <pin num="13" name="" type="passive"/>
+        <pin num="14" name="" type="passive"/>
+        <pin num="15" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized_Small">
+      <description>Polarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_SwitchedCapacitor" part="ICL7660">
+      <description>Switched-Capacitor Voltage Converter, 1.5V to 10.0V operating supply voltage, 10mA with a 0.5V output drop, SO-8/DIP-8/µMAX-8/TO-99</description>
+      <docs>http://datasheets.maximintegrated.com/en/ds/ICL7660-MAX1044.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*3.9x4.9mm*</fp>
+        <fp>MSOP*3x3mm*P0.65mm*</fp>
+        <fp>TO?99*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ICL7660</field>
+        <field name="Datasheet">http://datasheets.maximintegrated.com/en/ds/ICL7660-MAX1044.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="no_connect"/>
+        <pin num="2" name="CAP+" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="CAP-" type="input"/>
+        <pin num="5" name="VOUT" type="power_out"/>
+        <pin num="6" name="LV" type="input"/>
+        <pin num="7" name="OSC" type="input"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="lib" part="LT6550">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LT6550</field>
+        <field name="Footprint">Package_SO:MSOP-10_3x3mm_P0.5mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN1" type="input"/>
+        <pin num="2" name="IN2" type="input"/>
+        <pin num="3" name="IN3" type="input"/>
+        <pin num="4" name="GND" type="input"/>
+        <pin num="5" name="VEE" type="input"/>
+        <pin num="7" name="OUT3" type="input"/>
+        <pin num="8" name="OUT2" type="input"/>
+        <pin num="9" name="OUT1" type="input"/>
+        <pin num="10" name="VCC" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Comparator">
+      <uri>C:\Program Files\KiCad\share\kicad\symbols\/Comparator.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_SwitchedCapacitor">
+      <uri>C:\Program Files\KiCad\share\kicad\symbols\/Regulator_SwitchedCapacitor.kicad_sym</uri>
+    </library>
+    <library logical="lib">
+      <uri>${KIPRJMOD}/Libs/lib.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="V+" pintype="power_in"/>
+      <node ref="U2" pin="10" pinfunction="VCC" pintype="input"/>
+      <node ref="U3" pin="8" pinfunction="V+" pintype="power_in"/>
+    </net>
+    <net code="2" name="-5V">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="VEE" pintype="input"/>
+      <node ref="U3" pin="5" pinfunction="VOUT" pintype="power_out"/>
+    </net>
+    <net code="3" name="/B">
+      <node ref="J1" pin="3" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="IN3" pintype="input"/>
+    </net>
+    <net code="4" name="/G">
+      <node ref="J1" pin="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="5" name="/Pb">
+      <node ref="J2" pin="3" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="6" name="/Pr">
+      <node ref="J2" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="/R">
+      <node ref="J1" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="IN1" pintype="input"/>
+    </net>
+    <net code="8" name="/Y">
+      <node ref="J2" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="/Y_FB">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="GND" pintype="input"/>
+      <node ref="U2" pin="8" pinfunction="OUT2" pintype="input"/>
+    </net>
+    <net code="10" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="0" pintype="passive"/>
+      <node ref="J1" pin="10" pintype="passive"/>
+      <node ref="J1" pin="5" pintype="passive"/>
+      <node ref="J1" pin="6" pintype="passive"/>
+      <node ref="J1" pin="7" pintype="passive"/>
+      <node ref="J1" pin="8" pintype="passive"/>
+      <node ref="J1" pin="9" pintype="passive"/>
+      <node ref="J2" pin="0" pintype="passive"/>
+      <node ref="J2" pin="10" pintype="passive"/>
+      <node ref="J2" pin="5" pintype="passive"/>
+      <node ref="J2" pin="6" pintype="passive"/>
+      <node ref="J2" pin="7" pintype="passive"/>
+      <node ref="J2" pin="8" pintype="passive"/>
+      <node ref="J2" pin="9" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="V-" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="11" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="CAP+" pintype="input"/>
+    </net>
+    <net code="12" name="Net-(C5-Pad2)">
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="CAP-" pintype="input"/>
+    </net>
+    <net code="13" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(R2-Pad1)">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="OUT1" pintype="input"/>
+    </net>
+    <net code="15" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="16" name="Net-(R11-Pad1)">
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="OUT3" pintype="input"/>
+    </net>
+    <net code="17" name="Net-(R13-Pad1)">
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="18" name="Net-(U2-Pad2)">
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pintype="output"/>
+      <node ref="U2" pin="2" pinfunction="IN2" pintype="input"/>
+    </net>
+    <net code="19" name="unconnected-(J1-Pad4)">
+      <node ref="J1" pin="4" pintype="passive+no_connect"/>
+    </net>
+    <net code="20" name="unconnected-(J1-Pad11)">
+      <node ref="J1" pin="11" pintype="passive+no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(J1-Pad12)">
+      <node ref="J1" pin="12" pintype="passive+no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(J1-Pad13)">
+      <node ref="J1" pin="13" pintype="passive+no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(J1-Pad14)">
+      <node ref="J1" pin="14" pintype="passive+no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(J1-Pad15)">
+      <node ref="J1" pin="15" pintype="passive+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(J2-Pad4)">
+      <node ref="J2" pin="4" pintype="passive+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(J2-Pad11)">
+      <node ref="J2" pin="11" pintype="passive+no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(J2-Pad12)">
+      <node ref="J2" pin="12" pintype="passive+no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(J2-Pad13)">
+      <node ref="J2" pin="13" pintype="passive+no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(J2-Pad14)">
+      <node ref="J2" pin="14" pintype="passive+no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(J2-Pad15)">
+      <node ref="J2" pin="15" pintype="passive+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(U3-Pad1)">
+      <node ref="U3" pin="1" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(U3-Pad6)">
+      <node ref="U3" pin="6" pinfunction="LV" pintype="input+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(U3-Pad7)">
+      <node ref="U3" pin="7" pinfunction="OSC" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>
