@@ -439,6 +439,18 @@
     [
       "193dfd91-dbbf-403e-bcf3-7bf1466bec8e",
       ""
+    ],
+    [
+      "86e6bdb4-a3af-4f37-9b39-1490e0cdea86",
+      "Input Board"
+    ],
+    [
+      "b8be6f60-3e6e-4a11-9bb4-f787944e09ce",
+      "Conversion Board"
+    ],
+    [
+      "61d92bfe-c6eb-4c33-abd6-5ff740bf14e7",
+      "Output Board"
     ]
   ],
   "text_variables": {}
