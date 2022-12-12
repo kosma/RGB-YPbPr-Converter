@@ -501,9 +501,6 @@
     (path "/86e6bdb4-a3af-4f37-9b39-1490e0cdea86/41af634a-110c-4ddf-bd70-b3a077748809"
       (reference "C11") (unit 1) (value "100n/16V") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
-    (path "/86e6bdb4-a3af-4f37-9b39-1490e0cdea86/b0a0440e-ba32-4f70-9835-719507f1735c"
-      (reference "D1") (unit 1) (value "Diode SMA") (footprint "Diode_SMD:D_SMA")
-    )
     (path "/86e6bdb4-a3af-4f37-9b39-1490e0cdea86/76ecdda9-71c0-4401-82ed-83b3f14dd3c1"
       (reference "D2") (unit 1) (value "5.6V") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
     )

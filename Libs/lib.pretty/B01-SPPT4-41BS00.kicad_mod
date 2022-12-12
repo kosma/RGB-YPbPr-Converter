@@ -22,4 +22,9 @@
   (pad "2" thru_hole circle (at 3.02 3.02) (size 2.4 2.4) (drill 1.4) (layers *.Cu *.Mask) (tstamp 4c744316-6efe-48a2-bbbd-5cab1384505f))
   (pad "2" thru_hole circle (at -3.02 -3.02) (size 2.4 2.4) (drill 1.4) (layers *.Cu *.Mask) (tstamp c20f4f5c-68f6-4e7a-b4a1-3b80194f0816))
   (pad "2" thru_hole circle (at 3.02 -3.02) (size 2.4 2.4) (drill 1.4) (layers *.Cu *.Mask) (tstamp f87b3062-13c4-4b3a-ad7a-66fdcf3a1ede))
+  (model "${KIPRJMOD}/Libs/BNC MALE v2.step"
+    (offset (xyz 0 0 17.4))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 90 0 0))
+  )
 )
