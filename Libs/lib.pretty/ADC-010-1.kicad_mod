@@ -19,9 +19,9 @@
   (pad "1" thru_hole oval (at -3.5 0) (size 1.8 4.5) (drill oval 0.8 3.5) (layers *.Cu *.Mask) (tstamp 63777a43-f1f5-4d5d-a152-5fb24ad5a72f))
   (pad "2" thru_hole oval (at -1.2 5.3) (size 3.8 1.6) (drill oval 2.8 0.6) (layers *.Cu *.Mask) (tstamp cef116b1-1830-4044-be3e-3cf7fb5f208e))
   (pad "3" thru_hole oval (at 2.5 2.8) (size 3.8 1.6) (drill oval 2.8 0.6) (layers *.Cu *.Mask) (tstamp f6da3844-658c-4d4c-8880-50b94d75a624))
-  (model "${KIPRJMOD}/Libs/KLDVX-0202-A Kycon.step"
-    (offset (xyz 0 -6.5 15))
+  (model "${KIPRJMOD}/Libs/694106402002 (rev1).stp"
+    (offset (xyz 0 -1.15 10.5))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz 90 0 0))
   )
 )

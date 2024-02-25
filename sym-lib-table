@@ -1,3 +1,7 @@
 (sym_lib_table
   (lib (name "lib")(type "KiCad")(uri "${KIPRJMOD}/Libs/lib.kicad_sym")(options "")(descr ""))
+  (lib (name "690357101072")(type "KiCad")(uri "${KIPRJMOD}/Libs/690357101072.kicad_sym")(options "")(descr ""))
+  (lib (name "690367191072")(type "KiCad")(uri "${KIPRJMOD}/Libs/690367191072.kicad_sym")(options "")(descr ""))
+  (lib (name "690367181072")(type "KiCad")(uri "${KIPRJMOD}/Libs/690367181072.kicad_sym")(options "")(descr ""))
+  (lib (name "L77HDEH15SOL2RM8C309")(type "KiCad")(uri "${KIPRJMOD}/Libs/L77HDEH15SOL2RM8C309.kicad_sym")(options "")(descr ""))
 )
